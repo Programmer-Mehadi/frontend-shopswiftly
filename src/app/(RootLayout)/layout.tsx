@@ -1,7 +1,8 @@
 import React from "react"
 import TopBarSection from "../../components/Sections/TopBar/TopBarSection"
-import HeaderSection from "@/components/Sections/Header/HeaderSection"
+
 import FooterSection from "../../components/Sections/Footer/FooterSection"
+import NavbarSection from "@/components/Sections/Navbar/NavbarSection"
 
 export default function RootLayout({
   children,
@@ -11,7 +12,7 @@ export default function RootLayout({
   return (
     <div>
       <TopBarSection className="hidden lg:block" />
-      <HeaderSection />
+      <NavbarSection />
       {children}
       <FooterSection />
     </div>

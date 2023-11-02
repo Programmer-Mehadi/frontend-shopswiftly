@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.public_navbar_container nav div:first-child {
+  @apply flex justify-start gap-2 lg:gap-8 2xl:gap-12;
+}
+.public_navbar_container .navbar_collapse {
+  @apply w-full lg:w-auto order-last lg:order-2;
+}
+.public_navbar_container .navbar_collapse ul {
+  @apply lg:items-center mt-0 md:mt-0 gap-2 lg:gap-0 md:space-x-0 lg:space-x-5 2xl:space-x-8 md:flex-col lg:flex-row;
+}
+
+.public_navbar_container .navbar_collapse ul li a {
+  @apply text-sm lg:text-xs 2xl:text-sm font-semibold;
+}
+
+.public_navbar_container .navbar_toggle svg {
+  @apply fill-white  !important;
+}

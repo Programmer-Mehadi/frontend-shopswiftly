@@ -10,7 +10,7 @@ export default function TopBarSection(props: any) {
   const { className = "" } = props
   return (
     <section className={"bg-NoneBlack dark:bg-NoneBlack " + className}>
-      <div className="flex justify-between items-center gap-6 max-w-[1440px] px-4 md:px-6">
+      <div className="flex justify-between items-center gap-6 max-w-[1440px] mx-auto px-4 md:px-6">
         {/* time table start */}
         <div className="text-xs flex items-center py-2">
           <span className="text-GreyChateau">Mon-Thu:</span>
@@ -24,14 +24,14 @@ export default function TopBarSection(props: any) {
         {/* message start */}
         <p className="text-GreyDarkChateau text-xs">
           Visit our showroom in 1234 Street Adress City Address, 1234
-          <span className="text-white font-semibold border-b-[3px] border-b-white ml-3 p-[2px]">
+          <span className="text-white font-semibold border-b-[2px] border-b-white ml-3 p-[2px]">
             Contact Us
           </span>
         </p>
         {/* message end */}
         {/* contact and social media start */}
         <div className="flex flex-wrap items-center gap-2">
-          <span className="relative top-[2px] text-white text-xs">
+          <span className="relative top-[1px] text-white text-xs">
             Call Us: (00) 1234 5678
           </span>
           <svg
