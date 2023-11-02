@@ -6,7 +6,8 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "ShopSwiftly",
-  description: "ShopSwiftly is an e-commerce store built with Next.js",
+  description:
+    "ShopSwiftly is a Ecommerce website that provides customers better Pc, Laptop and Others components.",
 }
 
 export default function RootLayout({
