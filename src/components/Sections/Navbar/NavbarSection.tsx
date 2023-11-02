@@ -90,9 +90,13 @@ export default function NavbarSection() {
               </span>
             </Dropdown.Header>
             <Dropdown.Item>Dashboard</Dropdown.Item>
+            <Dropdown.Item>My Account</Dropdown.Item>
+            <Dropdown.Item>My Wish List (0)</Dropdown.Item>
             <Dropdown.Item>Settings</Dropdown.Item>
             <Dropdown.Item>Earnings</Dropdown.Item>
             <Dropdown.Divider />
+            <Dropdown.Item>Create an Account</Dropdown.Item>
+            <Dropdown.Item>Sign In</Dropdown.Item>
             <Dropdown.Item>Sign out</Dropdown.Item>
           </Dropdown>
         </div>
